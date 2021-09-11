@@ -1,4 +1,4 @@
-import { Input } from "@mantine/core";
+import { Input, Avatar } from "@mantine/core";
 import { BiSearch } from "react-icons/bi";
 
 const Navbar = () => {
@@ -9,15 +9,20 @@ const Navbar = () => {
           "max-w-7xl h-full mx-auto flex items-center  justify-between"
         }
       >
-        <h1 className={"text-3xl font-bold font-poppins"}>Social</h1>
+        <h1 className={"text-3xl font-bold font-poppins cursor-pointer"}>
+          Social
+        </h1>
         <Input
-            style={{fontSize:"20px",}}
-          icon={<BiSearch/>}
+          icon={<BiSearch />}
           variant="filled"
           radius="lg"
           size="30px"
-            inputMode={"text"}
+          inputMode={"text"}
         />
+        <div className="flex space-x-5 cursor-pointer">
+          <Avatar radius="lg" color="green" />
+          <Avatar radius="lg" color="red" />
+        </div>
       </div>
     </div>
   );
