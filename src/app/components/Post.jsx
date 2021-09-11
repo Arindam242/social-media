@@ -3,14 +3,22 @@ import React from "react";
 import { BiLike, BiShareAlt } from "react-icons/bi";
 import { FaRegComment, FaRegBookmark } from "react-icons/fa";
 
+const newPost = {
+  name: "Arindam ROy",
+  location: "Delhi,india",
+  image: "/screenshot.png",
+  likedBy: "anindita007",
+  comments: "what garbage looking website is this",
+};
+
 const Post = () => {
   return (
     <div className="w-3/6 h-3/5 bg-white rounded-md px-5 my-4 py-7">
       <div className="flex space-x-3">
         <Avatar radius={"lg"} />
         <div>
-          <Title order={5}>Arindam Roy</Title>
-          <Text color={"gray"}>Delhi,India</Text>
+          <Title order={5}>{newPost.name}</Title>
+          <Text color={"gray"}>{newPost.location}</Text>
         </div>
       </div>
 
@@ -27,15 +35,15 @@ const Post = () => {
       <div className={"flex items-center my-2"}>
         <Avatar radius={"sm"} />
         <Text>
-          Liked by <span className={"font-bold"}>anidita007</span>,and{" "}
+          Liked by <span className={"font-bold"}>{newPost.likedBy}</span>,and{" "}
           <span className={"font-bold"}>1993</span> others
         </Text>
       </div>
       <div>
-          <Text>
-              <span className={"font-bold mr-2"}>Allu0076</span>
-              what garbage is this .it's so bad
-          </Text>
+        <Text>
+          <span className={"font-bold mr-2"}>Allu0076</span>
+          {newPost.comments}{" "}
+        </Text>
       </div>
     </div>
   );
