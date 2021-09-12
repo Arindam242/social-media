@@ -1,0 +1,94 @@
+[
+	{
+		"author": {
+			"name": "Ray Nirola",
+			"avatar": "https://i.pravatar.cc/300?u=1"
+		},
+		"location": "Kolkata,india",
+		"image": "https://images.unsplash.com/photo-1524758631624-e2822e304c36",
+		"likedBy": "Roshni",
+		"comments": [
+			{
+				"author": "John Doe",
+				"body": "Many modern alternatives often incorporate humor or other content."
+			},
+			{
+				"author": "Jane Murphy",
+				"body": "To avoid creating a distraction, when starting a new design project."
+			},
+			{
+				"author": "Tom Cook",
+				"body": "Both have realistic-looking sentence structure and word shape, but are foreign languages."
+			}
+		]
+	},
+	{
+		"author": {
+			"name": "Arindam Roy",
+			"avatar": "https://i.pravatar.cc/300?u=2"
+		},
+		"location": "Delhi,india",
+		"image": "https://images.unsplash.com/photo-1593642702909-dec73df255d7",
+		"likedBy": "Anindita",
+		"comments": [
+			{
+				"author": "John Doe",
+				"body": "Many modern alternatives often incorporate humor or other content."
+			},
+			{
+				"author": "Jane Murphy",
+				"body": "To avoid creating a distraction, when starting a new design project."
+			},
+			{
+				"author": "Tom Cook",
+				"body": "Both have realistic-looking sentence structure and word shape, but are foreign languages."
+			}
+		]
+	},
+	{
+		"author": {
+			"name": "Roshni Chauhan",
+			"avatar": "https://i.pravatar.cc/300?u=3"
+		},
+		"location": "Bangalore,india",
+		"image": "https://images.unsplash.com/photo-1631283921474-f23b59995142",
+		"likedBy": "Ray",
+		"comments": [
+			{
+				"author": "John Doe",
+				"body": "Many modern alternatives often incorporate humor or other content."
+			},
+			{
+				"author": "Jane Murphy",
+				"body": "To avoid creating a distraction, when starting a new design project."
+			},
+			{
+				"author": "Tom Cook",
+				"body": "Both have realistic-looking sentence structure and word shape, but are foreign languages."
+			}
+		]
+	},
+	{
+		"author": {
+			"name": "Arindam Roy",
+			"avatar": "https://i.pravatar.cc/300?u=2"
+		},
+		"location": "Delhi,india",
+		"image": "/images/placeholder.webp",
+		"likedBy": "Anindita",
+		"comments": [
+			{
+				"author": "John Doe",
+				"body": "Many modern alternatives often incorporate humor or other content."
+			},
+			{
+				"author": "Jane Murphy",
+				"body": "To avoid creating a distraction, when starting a new design project."
+			},
+			{
+				"author": "Tom Cook",
+				"body": "Both have realistic-looking sentence structure and word shape, but are foreign languages."
+			}
+		]
+	}
+]

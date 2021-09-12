@@ -1,10 +1,7 @@
-import React from 'react';
-import HomePage from "./app/Containers/HomePage";
+import { HomePage } from "./pages"
 
 function App() {
-    return (
-        <HomePage/>
-    );
+	return <HomePage />
 }
 
-export default App;
+export default App
